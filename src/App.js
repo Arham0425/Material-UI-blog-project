@@ -5,6 +5,7 @@ import FeaturedPost from './components/FeaturedPost'
 import PostCard from './components/PostCard'
 import Sidebar from './components/Sidebar';
 import Main from './components/Main';
+import Footer from './components/Footer';
 import { featuredPosts, sidebar } from "./data/Data";
 
 const useStyles = makeStyles((theme) => ({
@@ -43,6 +44,10 @@ function App() {
           />
         </Grid>
       </Container>
+      <Footer
+        title="Footer"
+        description="Something here to give the footer a purpose!"
+      />
     </ThemeProvider>
     
   );
